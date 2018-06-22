@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: distribution-lock
+
+redis-single:
+  server:
+    url: http://127.0.0.1:6379
+
+zookeeper-cluster:
+  server:
+    url: 127.0.0.1:2181
